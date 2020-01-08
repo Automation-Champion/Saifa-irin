@@ -15,7 +15,7 @@ public class SeleniumTest {
 		WebDriver driver = new ChromeDriver();
 		
 		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		
 		
 		driver.get("https://zoopla.com");
 		driver.findElement(By.id("search-tabs-to-rent")).click();
